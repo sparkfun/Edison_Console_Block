@@ -151,7 +151,7 @@
 <text x="4.445" y="45.085" size="1.778" layer="51">Connectors Go Here</text>
 <text x="-2.54" y="41.91" size="1.778" layer="51" rot="R270">LED's and selector switches go here</text>
 <text x="31.115" y="39.37" size="1.778" layer="51" rot="R270">Nothing goes here...  I mean it.</text>
-<text x="29.337" y="31.75" size="1.27" layer="22" font="vector" ratio="15" rot="MR90" align="center">Edzzanine Console</text>
+<text x="29.337" y="31.75" size="1.27" layer="22" font="vector" ratio="15" rot="MR90" align="center">Console</text>
 <wire x1="1.778" y1="44.45" x2="28.702" y2="44.45" width="0.1524" layer="20"/>
 <wire x1="30.48" y1="44.704" x2="30.48" y2="53.34" width="0.254" layer="51"/>
 <wire x1="30.48" y1="53.34" x2="0" y2="53.34" width="0.254" layer="51"/>
@@ -176,6 +176,7 @@
 <text x="1.016" y="24.003" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">TX</text>
 <text x="1.524" y="9.398" size="1.016" layer="21" font="vector" ratio="15" rot="R90">POWER</text>
 <text x="30.099" y="3.81" size="1.016" layer="1" font="vector" ratio="15" rot="R90">v01</text>
+<text x="29.21" y="31.75" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center">Console</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
