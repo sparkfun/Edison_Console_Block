@@ -2101,7 +2101,6 @@ design rules under a new name.</description>
 <wire x1="13.212" y1="14.482" x2="13.462" y2="14.732" width="0.254" layer="1"/>
 <via x="11.557" y="42.418" extent="1-16" drill="0.508"/>
 <via x="18.923" y="42.418" extent="1-16" drill="0.508"/>
-<wire x1="18.94" y1="42.418" x2="18.923" y2="42.418" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSYS">
 <wire x1="23.32" y1="22.58" x2="23.32" y2="22.18" width="0.2" layer="16"/>
@@ -2132,7 +2131,6 @@ design rules under a new name.</description>
 <via x="1.016" y="40.64" extent="1-16" drill="0.508"/>
 <wire x1="1.016" y1="40.64" x2="2.286" y2="39.37" width="0.254" layer="16"/>
 <wire x1="2.286" y1="39.37" x2="2.286" y2="33.528" width="0.254" layer="16"/>
-<wire x1="2.286" y1="28.448" x2="5.461" y2="28.448" width="0.254" layer="1"/>
 <contactref element="R8" pad="1"/>
 <wire x1="4.572" y1="19.392" x2="4.572" y2="20.955" width="0.254" layer="1"/>
 <contactref element="C8" pad="1"/>
