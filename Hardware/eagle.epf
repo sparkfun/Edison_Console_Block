@@ -31,8 +31,8 @@ UsedLibrary="Edison.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="741 171 1724 570"
-State=1
+Loc="943 0 1440 1001"
+State=2
 Number=0
 
 [Desktop]

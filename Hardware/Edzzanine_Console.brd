@@ -2029,8 +2029,8 @@ design rules under a new name.</description>
 <element name="U4" library="Testing" package="WSON-8-PAD" value="TPS62065" x="13.462" y="14.732" rot="R180"/>
 <element name="R13" library="SparkFun-Resistors" package="0603-RES" value="680k" x="17.78" y="14.732" rot="R90"/>
 <element name="R14" library="SparkFun-Resistors" package="0603-RES" value="120k" x="17.78" y="11.43" rot="R90"/>
-<element name="C9" library="SparkFun-Capacitors" package="0603-CAP" value="9.0pF" x="16.002" y="14.732" rot="R270">
-<attribute name="PROD_ID" value="CAP-09341" x="12.446" y="30.988" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C9" library="SparkFun-Capacitors" package="0603-CAP" value="22pF" x="16.002" y="14.732" rot="R270">
+<attribute name="PROD_ID" value="CAP-07876" x="12.446" y="30.988" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603-CAP" value="4.7uF" x="13.716" y="11.557">
 <attribute name="PROD_ID" value="CAP-08280" x="5.588" y="9.017" size="1.778" layer="27" display="off"/>

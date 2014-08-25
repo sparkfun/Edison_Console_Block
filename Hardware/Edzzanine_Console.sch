@@ -17048,8 +17048,8 @@ Ceramic&lt;br&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="9.0PF-50V-10%(0603)" prefix="C" uservalue="yes">
-<description>CAP-09341</description>
+<deviceset name="22PF-50V-5%(0603)" prefix="C" uservalue="yes">
+<description>CAP-07876</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -17061,8 +17061,8 @@ Ceramic&lt;br&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CAP-09341" constant="no"/>
-<attribute name="VALUE" value="9.0pF" constant="no"/>
+<attribute name="PROD_ID" value="CAP-07876" constant="no"/>
+<attribute name="VALUE" value="22pF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19129,7 +19129,7 @@ See a 3.3V fixed output version of this chip in action on the &lt;a href="https:
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680k"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120k"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="9.0PF-50V-10%(0603)" device="" value="9.0pF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="22PF-50V-5%(0603)" device="" value="22pF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device=""/>
