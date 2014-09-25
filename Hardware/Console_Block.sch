@@ -16111,7 +16111,7 @@ Various fiducial points for machine vision alignment.</description>
 <hole x="2.93" y="1.98" drill="2"/>
 </package>
 <package name="DF40C-70DP-0.4(51)">
-<circle x="7.3" y="1" radius="0.1" width="0.3048" layer="21"/>
+<circle x="7.7" y="1" radius="0.1" width="0.3048" layer="21"/>
 <wire x1="-8.4" y1="1.44" x2="8.4" y2="1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="1.44" x2="8.4" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="-1.44" x2="-8.4" y2="-1.44" width="0.2032" layer="21"/>
@@ -16186,6 +16186,10 @@ Various fiducial points for machine vision alignment.</description>
 <smd name="68" x="-6.4" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="70" x="-6.8" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC4" x="-7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC3" x="-7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC1" x="7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC2" x="7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 </package>
 <package name="DF40-XC-(X.X)-70DS-0.4V(51)">
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="1"/>
@@ -19449,7 +19453,6 @@ High-power, low thermal resistance package.</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="47PF-50V-5%(0603)" device="" value="47pF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="47PF-50V-5%(0603)" device="" value="47pF"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -19485,7 +19488,7 @@ High-power, low thermal resistance package.</description>
 <part name="C9" library="SparkFun-Capacitors" deviceset="22PF-50V-5%(0603)" device="" value="22pF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device=""/>
+<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="" value="1.0uH"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138"/>
@@ -19525,7 +19528,6 @@ Prevents Battery board from enabling DCIN</text>
 <instance part="C3" gate="G$1" x="45.72" y="129.54"/>
 <instance part="C4" gate="G$1" x="53.34" y="129.54"/>
 <instance part="SUPPLY1" gate="G$1" x="71.12" y="152.4"/>
-<instance part="SUPPLY2" gate="G$1" x="40.64" y="147.32"/>
 <instance part="SUPPLY3" gate="G$1" x="40.64" y="147.32"/>
 <instance part="GND8" gate="1" x="45.72" y="121.92" rot="MR0"/>
 <instance part="GND9" gate="1" x="53.34" y="121.92" rot="MR0"/>
@@ -19679,7 +19681,6 @@ Prevents Battery board from enabling DCIN</text>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 <pinref part="JP1" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="142.24" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
@@ -19842,6 +19843,7 @@ Prevents Battery board from enabling DCIN</text>
 <wire x1="114.3" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="88.9" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 <junction x="114.3" y="91.44"/>
+<junction x="101.6" y="91.44"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="137.16" x2="210.82" y2="139.7" width="0.1524" layer="91"/>

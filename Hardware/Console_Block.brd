@@ -1285,7 +1285,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Edison">
 <packages>
 <package name="DF40C-70DP-0.4(51)">
-<circle x="7.3" y="1" radius="0.1" width="0.3048" layer="21"/>
+<circle x="7.7" y="1" radius="0.1" width="0.3048" layer="21"/>
 <wire x1="-8.4" y1="1.44" x2="8.4" y2="1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="1.44" x2="8.4" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="-1.44" x2="-8.4" y2="-1.44" width="0.2032" layer="21"/>
@@ -1360,6 +1360,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="68" x="-6.4" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="70" x="-6.8" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC4" x="-7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC3" x="-7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC1" x="7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC2" x="7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 </package>
 <package name="EDISON_DAUGHTER">
 <smd name="69" x="1.98" y="5.57" dx="0.2" dy="1.14" layer="1" rot="R90"/>
@@ -2046,7 +2050,7 @@ design rules under a new name.</description>
 <element name="C10" library="SparkFun-Capacitors" package="0603-CAP" value="4.7uF" x="12.954" y="11.811">
 <attribute name="PROD_ID" value="CAP-08280" x="4.826" y="9.271" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L1" library="SparkFun-Passives" package="INDUCTOR-SRP4020" value="" x="14.986" y="18.796"/>
+<element name="L1" library="SparkFun-Passives" package="INDUCTOR-SRP4020" value="1.0uH" x="14.986" y="18.796"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="9.271" y="0.254"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.842" y="1.778"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="5.08"/>
@@ -2559,13 +2563,13 @@ design rules under a new name.</description>
 <contactref element="E1" pad="27"/>
 <contactref element="U$3" pad="27"/>
 <contactref element="R7" pad="2"/>
-<wire x1="24.765" y1="23.241" x2="24.765" y2="18.161" width="0.1524" layer="1"/>
+<wire x1="24.765" y1="23.749" x2="24.765" y2="18.161" width="0.1524" layer="1"/>
 <wire x1="24.765" y1="18.161" x2="25.1462" y2="17.7798" width="0.1524" layer="1"/>
 <wire x1="25.96" y1="17.7798" x2="25.1462" y2="17.7798" width="0.1524" layer="1"/>
-<wire x1="24.765" y1="23.241" x2="22.86" y2="25.146" width="0.1524" layer="1"/>
+<wire x1="24.765" y1="23.749" x2="23.368" y2="25.146" width="0.1524" layer="1"/>
 <wire x1="19.558" y1="26.328" x2="19.558" y2="25.4" width="0.1524" layer="1"/>
 <wire x1="19.558" y1="25.4" x2="19.812" y2="25.146" width="0.1524" layer="1"/>
-<wire x1="19.812" y1="25.146" x2="22.86" y2="25.146" width="0.1524" layer="1"/>
+<wire x1="19.812" y1="25.146" x2="23.368" y2="25.146" width="0.1524" layer="1"/>
 </signal>
 <signal name="GP134_UART_2_RX">
 <wire x1="23.32" y1="18.98" x2="21.7994" y2="18.98" width="0.1524" layer="16"/>
@@ -2576,11 +2580,11 @@ design rules under a new name.</description>
 <contactref element="E1" pad="22"/>
 <contactref element="U$3" pad="22"/>
 <contactref element="R6" pad="2"/>
-<wire x1="22.86" y1="24.638" x2="24.384" y2="23.114" width="0.1524" layer="1"/>
-<wire x1="24.384" y1="23.114" x2="24.384" y2="19.304" width="0.1524" layer="1"/>
+<wire x1="23.368" y1="24.638" x2="24.384" y2="23.622" width="0.1524" layer="1"/>
+<wire x1="24.384" y1="23.622" x2="24.384" y2="19.304" width="0.1524" layer="1"/>
 <wire x1="24.384" y1="19.304" x2="24.0598" y2="18.9798" width="0.1524" layer="1"/>
 <wire x1="23.32" y1="18.9798" x2="24.0598" y2="18.9798" width="0.1524" layer="1"/>
-<wire x1="22.86" y1="24.638" x2="16.344" y2="24.638" width="0.1524" layer="1"/>
+<wire x1="23.368" y1="24.638" x2="16.344" y2="24.638" width="0.1524" layer="1"/>
 </signal>
 <signal name="GP43_I2S_2_TXD">
 <wire x1="23.32" y1="12.1798" x2="22.0604" y2="12.1798" width="0.1524" layer="1"/>
@@ -3187,12 +3191,12 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="19,1,8b17b0c851e32e43"/>
-<approved hash="19,1,8b777430966b2d53"/>
-<approved hash="19,1,49896880cecbabbd"/>
-<approved hash="19,1,c82a70d4967d6afc"/>
-<approved hash="19,1,ca3a4e5cabf56bec"/>
 <approved hash="19,1,0b4fd8a3f9576ec4"/>
+<approved hash="19,1,8b17b0c851e32e43"/>
+<approved hash="19,1,c82a70d4967d6afc"/>
+<approved hash="19,1,49896880cecbabbd"/>
+<approved hash="19,1,8b777430966b2d53"/>
+<approved hash="19,1,ca3a4e5cabf56bec"/>
 <approved hash="19,1,9c7c6868460f2a86"/>
 <approved hash="19,1,9e5c72f91fb86b03"/>
 <approved hash="19,1,9f7c4f5121106913"/>
