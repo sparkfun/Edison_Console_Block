@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -163,7 +163,7 @@
 <text x="1.016" y="35.306" size="1.016" layer="21" font="vector" ratio="15" rot="SR270" align="center">PWR</text>
 <text x="1.016" y="28.702" size="1.016" layer="21" font="vector" ratio="15" rot="SR270" align="center">RX</text>
 <text x="1.016" y="23.749" size="1.016" layer="21" font="vector" ratio="15" rot="SR270" align="center">TX</text>
-<text x="0.762" y="17.018" size="1.016" layer="21" font="vector" ratio="15" rot="SR270">POWER</text>
+<text x="1.016" y="16.891" size="1.016" layer="21" font="vector" ratio="15" rot="SR270" align="center-left">POWER</text>
 <text x="30.099" y="3.81" size="1.016" layer="1" font="vector" ratio="15" rot="R90">v10</text>
 <text x="29.972" y="26.416" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Console Block</text>
 <text x="29.972" y="40.386" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270">Console Block</text>
@@ -171,6 +171,8 @@
 <wire x1="22.7965" y1="23.1775" x2="23.8125" y2="23.1775" width="0.127" layer="42"/>
 <wire x1="24.003" y1="23.368" x2="24.003" y2="22.0345" width="0.127" layer="42"/>
 <wire x1="24.003" y1="22.0345" x2="24.003" y2="23.368" width="0.127" layer="41"/>
+<wire x1="13.208" y1="14.224" x2="13.208" y2="13.843" width="0.1524" layer="41"/>
+<wire x1="11.684" y1="14.224" x2="11.684" y2="13.843" width="0.1524" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2118,7 +2120,7 @@ design rules under a new name.</description>
 <element name="JP1" library="SparkFun-Connectors" package="USB-B-MICRO-SMD_V03" value="USB_MICROB" x="15.24" y="42.418" rot="R270">
 <attribute name="PROD_ID" value="CONN-11752" x="15.24" y="42.418" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="SparkFun-DigitalIC" package="SSOP20_L" value="FTS31XS-U" x="15.24" y="30.226" rot="R90">
+<element name="U2" library="SparkFun-DigitalIC" package="SSOP20_L" value="FT231XS-U" x="15.24" y="30.226" rot="R90">
 <attribute name="PROD_ID" value="IC-11524" x="15.24" y="30.226" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="10.795" y="32.512" rot="R270">

@@ -19624,7 +19624,7 @@ High-power, low thermal resistance package.</description>
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="CONN-11752" value="USB_MICROB"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U2" library="SparkFun-DigitalIC" deviceset="FT231X" device="S" value="FTS31XS-U"/>
+<part name="U2" library="SparkFun-DigitalIC" deviceset="FT231X" device="S" value="FT231XS-U"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.1uF"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -19692,7 +19692,7 @@ Prevents Battery board from enabling DCIN</text>
 <instance part="LOGO1" gate="G$1" x="88.9" y="2.54"/>
 <instance part="JP1" gate="G$1" x="27.94" y="137.16" rot="MR0"/>
 <instance part="GND1" gate="1" x="38.1" y="121.92" rot="MR0"/>
-<instance part="GND5" gate="1" x="17.78" y="137.16" rot="MR90"/>
+<instance part="GND5" gate="1" x="17.78" y="132.08" rot="MR0"/>
 <instance part="U2" gate="G$1" x="86.36" y="134.62"/>
 <instance part="C1" gate="G$1" x="81.28" y="170.18" rot="R180"/>
 <instance part="C2" gate="G$1" x="91.44" y="170.18" rot="R180"/>
@@ -19777,6 +19777,8 @@ Prevents Battery board from enabling DCIN</text>
 <segment>
 <pinref part="JP1" gate="G$1" pin="SHIELD"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="17.78" y1="134.62" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="137.16" x2="20.32" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
