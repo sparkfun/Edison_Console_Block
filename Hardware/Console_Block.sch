@@ -19676,6 +19676,8 @@ High-power, low thermal resistance package.</description>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138" value="BSS138"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="1K"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19763,6 +19765,8 @@ Prevents Battery board from enabling DCIN</text>
 <instance part="Q1" gate="G$1" x="198.12" y="76.2"/>
 <instance part="R10" gate="G$1" x="185.42" y="76.2" rot="R180"/>
 <instance part="SUPPLY7" gate="G$1" x="177.8" y="78.74"/>
+<instance part="FID3" gate="G$1" x="238.76" y="30.48"/>
+<instance part="FID4" gate="G$1" x="243.84" y="30.48"/>
 </instances>
 <busses>
 </busses>
